@@ -1,26 +1,38 @@
 {
-    "palvelin":"localhost",
-    "portti":3306,
-    "paakayttaja":"root",
-    "paakayttajaSalasana":"",
-    "kayttaja":"nico",
-    "kayttajanSalasana":"buHHkBqU",
-    "poistaKayttaja":true,
-    "debugKaytossa":true,
-    "tietokanta":"kirjatietokanta",
-    "taulut":[
+    "palvelin": "localhost",
+    "portti": 3306,
+    "paakayttaja": "root",
+    "paakayttajaSalasana": "",
+    "kayttaja": "nico",
+    "kayttajanSalasana": "buHHkBqU",
+    "poistaKayttaja": true,
+    "debugKaytossa": true,
+    "tietokanta": "kirjatietokanta",
+    "taulut": [
         {
-            "taulunNimi":"kirja",
-            "sarakkeet":[
+            "taulunNimi": "kirja",
+            "sarakkeet": [
                 "kirjaID integer not null primary key",
                 "nimi varchar(34) not null",
                 "tekija varchar(16) not null",
                 "painovuosi integer not null",
                 "lukumaara integer not null"
             ],
-            "tiedot":[
-                [1, "Yö", "noname", 1990, 10],
-                [2, "Päivä", "joku", 1999, 20]
+            "tiedot": [
+                [
+                    1,
+                    "Yö",
+                    "noname",
+                    1990,
+                    10
+                ],
+                [
+                    2,
+                    "Päivä",
+                    "joku",
+                    1999,
+                    20
+                ]
             ]
         }
     ]
